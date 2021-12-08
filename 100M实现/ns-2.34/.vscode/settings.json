@@ -1,0 +1,18 @@
+{
+    "files.associations": {
+        "array": "cpp",
+        "functional": "cpp",
+        "type_traits": "cpp",
+        "tuple": "cpp",
+        "utility": "cpp",
+        "hash_set": "cpp",
+        "initializer_list": "cpp",
+        "typeinfo": "cpp",
+        "deque": "cpp",
+        "*.tcc": "cpp",
+        "unordered_map": "cpp",
+        "iostream": "cpp",
+        "list": "cpp",
+        "vector": "cpp"
+    }
+}

@@ -1,0 +1,25 @@
+*** common/packet.h	2009-06-14 14:35:44.000000000 -0300
+--- common/packet.h	2010-02-25 23:06:47.000000000 -0300
+***************
+*** 182,189 ****
+  	// AOMDV packet
+  static const packet_t PT_AOMDV = 61;
+  
+          // insert new packet types here
+! static packet_t       PT_NTYPE = 62; // This MUST be the LAST one
+  
+  enum packetClass
+  {
+--- 182,193 ----
+  	// AOMDV packet
+  static const packet_t PT_AOMDV = 61;
+  
++ 	// Weverton Cordeiro: OLSR
++ static const packet_t       PT_OLSR = 62;
++  
++ 
+          // insert new packet types here
+! static packet_t       PT_NTYPE = 63; // This MUST be the LAST one
+  
+  enum packetClass
+  {
